@@ -11,5 +11,5 @@ Pasos para ejecutar el proyecto:
 
 # Producción
 
-1. Ejecutar `nom run build`.
+1. Ejecutar `npm run build`.
 2. Desplegar la carpeta `dist`.
