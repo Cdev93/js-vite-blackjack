@@ -1,0 +1,91 @@
+html, body{
+  margin: 0px;
+  background-color: rgb(51, 51, 51);
+}
+
+
+.cabecera{
+  text-align: center;
+  background-color: black;
+  color: wheat;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border: solid 2px wheat;
+  border-bottom: solid 2px rgb(130, 114, 84);
+  border-right: solid 2px rgb(130, 114, 84);
+  justify-content: center;
+  text-shadow: 4px 4px 4px rgb(50, 43, 29),
+  -4px 4px 4px rgb(50, 43, 29),
+  4px -4px 4px rgb(50, 43, 29),
+  -4px -4px 4px rgb(50, 43, 29)
+  ;
+  box-shadow: 0px 5px 10px rgba(231, 196, 127, 0.274) inset,
+  0px 43px 10px rgb(50, 43, 29) inset,
+  0px 42.5px 0px rgb(255, 255, 255) inset,
+  0px 1px 20px rgba(247, 235, 190, 0.378);
+  ;
+  
+  font-size: 26px;
+  
+}
+
+.carta{
+  position: relative;
+  width: 150px;
+  left: 50px;
+  margin-left: -25px;
+  box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.374) ;
+  border-radius: 15px;
+}
+
+.row > .col > h1{
+ font-size: 20px;
+ color: wheat;
+ margin-bottom: 45px;
+ margin-top: 25px;
+}
+
+.row:nth-of-type(3){
+  margin-top: 30px;
+}
+.col > div{
+  height: 230px;
+  
+}
+
+small{
+  font-size: 20px;
+}
+
+
+.prueba{
+
+  border: 4px solid red;
+}
+
+#nuevo, #noir, #pedir{
+  margin-top: 20px;
+  background-color: black;
+  border-top: 1px solid wheat;
+  border-left: 1px solid wheat;
+  border-bottom: 1px solid rgb(136, 112, 75);
+  border-right: 1px solid rgb(136, 112, 75);
+  color: wheat;
+  box-shadow: 0px 15px 5px rgba(245, 222, 179, 0.393) inset,
+  2px 2px 2px black;
+}
+
+
+#nuevo:hover, #noir:hover, #pedir:hover{
+  box-shadow: 0px -15px 5px rgba(245, 222, 179, 0.393) inset;
+}
+
+#nuevo:focus, #noir:focus, #pedir:focus{
+  box-shadow: 0px -15px 5px rgba(245, 222, 179, 0.393) inset;
+  color: rgb(241, 233, 218);
+}
+  
+#nuevo:disabled, #noir:disabled, #pedir:disabled{
+  visibility: collapse;
+}
